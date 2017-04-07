@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <FrameLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#eeeeee"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:text="Antiopam consetetur mel in. Urbanitas constituto persequeris ex ius, sed ei elitr ridens temporibus. Ex probo lorem etiam sea, ut meliore electram scripserit vim. Et dicunt facilisis his, tamquam postulant mei te. Eum ei aperiri labitur eripuit, ut sit autem pertinax."
+            android:textColor="#DD000000" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            tools:text="Tap" />
+
+    </FrameLayout>
+
+</ScrollView>

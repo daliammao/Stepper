@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="StepperTabViewPage">
+        <!-- Active step's color -->
+        <attr name="ms_activeStepColor" format="color|reference" />
+        <!-- Inactive step's color -->
+        <attr name="ms_inactiveStepColor" format="color|reference" />
+        <!-- Active step's color -->
+        <attr name="ms_activeStepNumColor" format="color|reference" />
+        <!-- Inactive step's color -->
+        <attr name="ms_inactiveStepNumColor" format="color|reference" />
+        <!-- Error's color -->
+        <attr name="ms_errorColor" format="color|reference" />
+
+        <!-- The width of the horizontal tab divider used in tabs stepper type -->
+        <attr name="ms_tabStepDividerWidth" format="dimension|reference" />
+
+        <!-- DEPRECATED: Use ms_showErrorStateEnabled instead -->
+        <attr name="ms_showErrorState" format="boolean" />
+
+        <!-- Flag indicating whether to show the error state. Only applicable for 'tabs' type. False by default. -->
+        <attr name="ms_showErrorStateEnabled" format="boolean" />
+
+        <!-- DEPRECATED: Use ms_showErrorStateOnBackEnabled instead -->
+        <attr name="ms_showErrorStateOnBack" format="boolean" />
+
+        <!-- Flag indicating whether to keep showing the error state when user moves back. Only applicable for 'tabs' type. False by default. -->
+        <attr name="ms_showErrorStateOnBackEnabled" format="boolean" />
+
+        <!-- Flag indicating whether step navigation is possible by clicking on the tabs directly. Only applicable for 'tabs' type. True by default. -->
+        <attr name="ms_tabNavigationEnabled" format="boolean" />
+
+        <!-- Theme to use for even more custom styling of the stepper layout.
+             It is recommended that it should extend @style/MSDefaultStepperLayoutTheme, which is the default theme used.
+             See StepperLayoutTheme below for a list of possible inner view styles to overwrite.
+        -->
+        <attr name="ms_stepperViewPageTheme" format="reference" />
+
+        <!-- REQUIRED: Type of the stepper-->
+        <attr name="ms_stepperType">
+            <enum name="dots" value="0x01" />
+            <enum name="progress_bar" value="0x02" />
+            <enum name="tabs" value="0x03" />
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="TabsContainer">
+        <attr name="ms_activeTabColor" format="color|reference" />
+        <attr name="ms_inactiveTabColor" format="color|reference" />
+        <attr name="ms_activeTabNumColor" format="color|reference" />
+        <attr name="ms_inactiveTabNumColor" format="color|reference" />
+        <attr name="ms_errorTabColor" format="color|reference" />
+    </declare-styleable>
+
+    <attr name="ms_stepperStyle" format="reference" />
+
+    <declare-styleable name="StepperViewPageTheme">
+        <!-- Used by ms_stepTabsContainer in layout/ms_stepper_layout -->
+        <attr name="ms_tabsContainerStyle" format="reference" />
+
+        <!-- Used by ms_stepTabsInnerContainer in layout/ms_tabs_container -->
+        <attr name="ms_stepTabsInnerContainerStyle" format="reference" />
+
+        <!-- Used by ms_stepTabsScrollView in layout/ms_tabs_container -->
+        <attr name="ms_stepTabsScrollViewStyle" format="reference" />
+
+        <!-- Used in layout/ms_step_tab_container -->
+        <attr name="ms_stepTabContainerStyle" format="reference" />
+
+        <!-- Used by ms_stepNumber in layout/ms_step_tab.xml -->
+        <attr name="ms_stepTabNumberStyle" format="reference" />
+
+        <!-- Used by ms_stepDoneIndicator in layout/ms_step_tab.xml -->
+        <attr name="ms_stepTabDoneIndicatorStyle" format="reference" />
+
+        <!-- Used by ms_stepIconBackground in layout/ms_step_tab.xml -->
+        <attr name="ms_stepTabIconBackgroundStyle" format="reference" />
+
+        <!-- Used by ms_stepTitle in layout/ms_step_tab.xml -->
+        <attr name="ms_stepTabTitleStyle" format="reference" />
+
+        <!-- Used by ms_stepDivider in layout/ms_step_tab.xml -->
+        <attr name="ms_stepTabDividerStyle" format="reference" />
+    </declare-styleable>
+</resources>

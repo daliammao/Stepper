@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:layout_height="match_parent"
+    tools:layout_width="match_parent"
+    tools:parentTag="LinearLayout"
+    tools:theme="@style/MSDefaultStepperLayoutTheme">
+
+    <com.twl.stepperlibrary.internal.widget.TabsContainer
+        android:id="@+id/ms_stepTabsContainer"
+        style="?attr/ms_tabsContainerStyle"
+        android:layout_width="match_parent"
+        tools:style="@style/MSStepTabsContainer" />
+
+    <com.twl.stepperlibrary.internal.widget.NonSwipeableViewPager
+        android:id="@+id/ms_stepPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</merge>

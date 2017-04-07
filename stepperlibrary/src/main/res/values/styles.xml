@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="MSDefaultStepperLayoutTheme">
+        <item name="ms_tabsContainerStyle">@style/MSStepTabsContainer</item>
+
+        <item name="ms_stepTabsScrollViewStyle">@style/MSStepTabsScrollView</item>
+        <item name="ms_stepTabsInnerContainerStyle">@style/MSStepTabsInnerContainer</item>
+
+        <item name="ms_stepTabContainerStyle">@style/MSStepTabContainer</item>
+
+        <item name="ms_stepTabNumberStyle">@style/MSStepTabNumber</item>
+        <item name="ms_stepTabDoneIndicatorStyle">@style/MSStepTabDoneIndicator</item>
+        <item name="ms_stepTabIconBackgroundStyle">@style/MSStepTabIconBackground</item>
+        <item name="ms_stepTabTitleStyle">@style/MSStepTabTitle</item>
+        <item name="ms_stepTabDividerStyle">@style/MSStepTabDivider</item>
+    </style>
+
+    <style name="Base.MSStepTabsContainer" parent="">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MSStepTabsContainer" parent="Base.MSStepTabsContainer">
+        <item name="android:background">@drawable/ms_tab_container_pre_lollipop_background</item>
+    </style>
+
+    <style name="MSBottomNavigation">
+        <item name="android:layout_height">@dimen/ms_bottom_navigation_bar_height</item>
+        <item name="android:background">@color/ms_bottomNavigationBackgroundColor</item>
+    </style>
+
+    <style name="MSStepTabsScrollView">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="MSStepTabsInnerContainer" tools:ignore="NewApi">
+        <item name="android:paddingLeft">@dimen/ms_tabs_container_lateral_padding</item>
+        <item name="android:paddingStart">@dimen/ms_tabs_container_lateral_padding</item>
+        <item name="android:paddingRight">@dimen/ms_tabs_container_lateral_padding</item>
+        <item name="android:paddingEnd">@dimen/ms_tabs_container_lateral_padding</item>
+    </style>
+
+    <style name="MSStepTabContainer">
+        <item name="android:layout_height">@dimen/ms_step_tab_height</item>
+        <item name="android:layout_width">@dimen/ms_step_tab_width</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="MSStepTabNumber">
+        <item name="android:layout_width">@dimen/ms_step_tab_counter_size</item>
+        <item name="android:layout_height">@dimen/ms_step_tab_counter_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/ms_white</item>
+        <item name="android:textSize">@dimen/ms_step_tab_circle_font_size</item>
+    </style>
+
+    <style name="MSStepTabDoneIndicator">
+        <item name="android:layout_width">@dimen/ms_step_tab_counter_size</item>
+        <item name="android:layout_height">@dimen/ms_step_tab_counter_size</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="srcCompat">@drawable/ms_ic_check</item>
+    </style>
+
+    <style name="MSStepTabIconBackground">
+        <item name="android:layout_width">@dimen/ms_step_tab_counter_size</item>
+        <item name="android:layout_height">@dimen/ms_step_tab_counter_size</item>
+    </style>
+
+    <style name="MSStepTabTitle" tools:ignore="NewApi">
+        <item name="android:textColor">@color/ms_black</item>
+        <item name="android:textSize">@dimen/ms_step_tab_title_font_size</item>
+    </style>
+
+    <style name="MSStepTabDivider">
+        <item name="android:layout_width">@dimen/ms_step_tab_divider_length</item>
+        <item name="android:layout_height">@dimen/ms_step_tab_divider_thickness</item>
+        <item name="android:background">@color/ms_material_grey_400</item>
+    </style>
+
+</resources>

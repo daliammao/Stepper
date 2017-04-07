@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:layout_height="wrap_content"
+    tools:layout_width="wrap_content"
+    tools:parentTag="RelativeLayout"
+    tools:theme="@style/MSDefaultStepperLayoutTheme">
+
+
+    <FrameLayout
+        android:id="@+id/ms_iconContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ms_stepIconBackground"
+            style="?attr/ms_stepTabIconBackgroundStyle"
+            tools:style="@style/MSStepTabIconBackground" />
+
+        <TextView
+            android:id="@+id/ms_stepNumber"
+            style="?attr/ms_stepTabNumberStyle"
+            tools:style="@style/MSStepTabNumber" />
+
+        <ImageView
+            android:id="@+id/ms_stepDoneIndicator"
+            style="?attr/ms_stepTabDoneIndicatorStyle"
+            android:visibility="gone"
+            tools:style="@style/MSStepTabDoneIndicator" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/ms_stepTitle"
+        style="?attr/ms_stepTabTitleStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:style="@style/MSStepTabTitle" />
+
+    <View
+        android:id="@+id/ms_stepDivider_left"
+        style="?attr/ms_stepTabDividerStyle"
+        tools:style="@style/MSStepTabDivider" />
+
+    <View
+        android:id="@+id/ms_stepDivider_right"
+        style="?attr/ms_stepTabDividerStyle"
+        tools:style="@style/MSStepTabDivider" />
+
+</merge>
