@@ -1,4 +1,4 @@
-package com.twl.stepperlibrary.adapter;
+package com.daliammao.stepperlibrary.adapter;
 
 import android.support.annotation.IntRange;
 import android.support.annotation.NonNull;
@@ -6,8 +6,8 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 
-import com.twl.stepperlibrary.Step;
-import com.twl.stepperlibrary.viewmodel.StepViewModel;
+import com.daliammao.stepperlibrary.Step;
+import com.daliammao.stepperlibrary.viewmodel.StepViewModel;
 
 /**
  */

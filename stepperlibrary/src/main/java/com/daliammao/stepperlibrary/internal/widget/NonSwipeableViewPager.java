@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
  */
 
-package com.twl.stepperlibrary.internal.widget;
+package com.daliammao.stepperlibrary.internal.widget;
 
 import android.content.Context;
 import android.support.annotation.RestrictTo;

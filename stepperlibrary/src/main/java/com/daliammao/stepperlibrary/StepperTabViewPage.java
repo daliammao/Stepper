@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
  */
 
-package com.twl.stepperlibrary;
+package com.daliammao.stepperlibrary;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -35,10 +35,10 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.twl.stepperlibrary.adapter.StepAdapter;
-import com.twl.stepperlibrary.internal.type.AbstractStepperType;
-import com.twl.stepperlibrary.internal.type.StepperTypeFactory;
-import com.twl.stepperlibrary.internal.widget.TabsContainer;
+import com.daliammao.stepperlibrary.adapter.StepAdapter;
+import com.daliammao.stepperlibrary.internal.type.AbstractStepperType;
+import com.daliammao.stepperlibrary.internal.type.StepperTypeFactory;
+import com.daliammao.stepperlibrary.internal.widget.TabsContainer;
 
 /**
  * Stepper widget implemented according to the <a href="https://www.google.com/design/spec/components/steppers.html">Material documentation</a>.<br>

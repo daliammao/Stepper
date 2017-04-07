@@ -7,13 +7,13 @@
     tools:parentTag="LinearLayout"
     tools:theme="@style/MSDefaultStepperLayoutTheme">
 
-    <com.twl.stepperlibrary.internal.widget.TabsContainer
+    <com.daliammao.stepperlibrary.internal.widget.TabsContainer
         android:id="@+id/ms_stepTabsContainer"
         style="?attr/ms_tabsContainerStyle"
         android:layout_width="match_parent"
         tools:style="@style/MSStepTabsContainer" />
 
-    <com.twl.stepperlibrary.internal.widget.NonSwipeableViewPager
+    <com.daliammao.stepperlibrary.internal.widget.NonSwipeableViewPager
         android:id="@+id/ms_stepPager"
         android:layout_width="match_parent"
         android:layout_height="0dp"

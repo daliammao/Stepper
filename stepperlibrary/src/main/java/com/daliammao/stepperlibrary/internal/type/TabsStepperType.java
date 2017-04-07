@@ -14,17 +14,17 @@ See the License for the specific language governing permissions and
 limitations under the License.
  */
 
-package com.twl.stepperlibrary.internal.type;
+package com.daliammao.stepperlibrary.internal.type;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.RestrictTo;
 import android.view.View;
 
-import com.twl.stepperlibrary.R;
-import com.twl.stepperlibrary.StepperTabViewPage;
-import com.twl.stepperlibrary.adapter.StepAdapter;
-import com.twl.stepperlibrary.internal.widget.TabsContainer;
-import com.twl.stepperlibrary.viewmodel.StepViewModel;
+import com.daliammao.stepperlibrary.R;
+import com.daliammao.stepperlibrary.StepperTabViewPage;
+import com.daliammao.stepperlibrary.adapter.StepAdapter;
+import com.daliammao.stepperlibrary.internal.widget.TabsContainer;
+import com.daliammao.stepperlibrary.viewmodel.StepViewModel;
 
 import java.util.ArrayList;
 import java.util.Arrays;

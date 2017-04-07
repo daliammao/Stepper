@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
  */
 
-package com.twl.stepperlibrary.internal.widget;
+package com.daliammao.stepperlibrary.internal.widget;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -37,8 +37,8 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.twl.stepperlibrary.Constant;
-import com.twl.stepperlibrary.R;
+import com.daliammao.stepperlibrary.Constant;
+import com.daliammao.stepperlibrary.R;
 
 import java.io.InputStream;
 

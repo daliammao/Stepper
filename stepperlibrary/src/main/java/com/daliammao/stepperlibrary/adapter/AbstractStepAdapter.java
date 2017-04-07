@@ -1,15 +1,15 @@
-package com.twl.stepperlibrary.adapter;
+package com.daliammao.stepperlibrary.adapter;
 
 import android.content.Context;
 import android.support.annotation.IntRange;
 import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;
 
-import com.twl.stepperlibrary.viewmodel.StepViewModel;
+import com.daliammao.stepperlibrary.viewmodel.StepViewModel;
 
 /**
- * A base adapter class which returns step to use inside of the {@link com.twl.stepperlibrary.StepperTabViewPage}.
- * This class is intended to be inherited if you need to use {@link com.twl.stepperlibrary.StepperTabViewPage} without fragments.
+ * A base adapter class which returns step to use inside of the {@link com.daliammao.stepperlibrary.StepperTabViewPage}.
+ * This class is intended to be inherited if you need to use {@link com.daliammao.stepperlibrary.StepperTabViewPage} without fragments.
  * Otherwise, you should use {@link AbstractFragmentStepAdapter}
  */
 public abstract class AbstractStepAdapter

@@ -14,12 +14,12 @@ See the License for the specific language governing permissions and
 limitations under the License.
  */
 
-package com.twl.stepperlibrary.internal.type;
+package com.daliammao.stepperlibrary.internal.type;
 
 import android.support.annotation.RestrictTo;
 import android.util.Log;
 
-import com.twl.stepperlibrary.StepperTabViewPage;
+import com.daliammao.stepperlibrary.StepperTabViewPage;
 
 import static android.support.annotation.RestrictTo.Scope.LIBRARY;
 

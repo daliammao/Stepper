@@ -5,9 +5,9 @@ import android.support.annotation.IntRange;
 import android.support.annotation.NonNull;
 import android.support.v4.app.FragmentManager;
 
-import com.twl.stepperlibrary.Step;
-import com.twl.stepperlibrary.adapter.AbstractFragmentStepAdapter;
-import com.twl.stepperlibrary.viewmodel.StepViewModel;
+import com.daliammao.stepperlibrary.Step;
+import com.daliammao.stepperlibrary.adapter.AbstractFragmentStepAdapter;
+import com.daliammao.stepperlibrary.viewmodel.StepViewModel;
 
 public class SampleFragmentStepAdapter extends AbstractFragmentStepAdapter {
 

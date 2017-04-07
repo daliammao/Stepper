@@ -28,8 +28,8 @@ import android.view.ViewGroup;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 
-import com.twl.stepperlibrary.Step;
-import com.twl.stepperlibrary.VerificationError;
+import com.daliammao.stepperlibrary.Step;
+import com.daliammao.stepperlibrary.VerificationError;
 
 public class StepFragmentSample extends Fragment implements Step {
 

@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
  */
 
-package com.twl.stepperlibrary.adapter;
+package com.daliammao.stepperlibrary.adapter;
 
 import android.content.Context;
 import android.support.annotation.IntRange;
@@ -24,12 +24,12 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.PagerAdapter;
 
-import com.twl.stepperlibrary.R;
-import com.twl.stepperlibrary.Step;
-import com.twl.stepperlibrary.viewmodel.StepViewModel;
+import com.daliammao.stepperlibrary.R;
+import com.daliammao.stepperlibrary.Step;
+import com.daliammao.stepperlibrary.viewmodel.StepViewModel;
 
 /**
- * A base adapter class which returns step fragments to use inside of the {@link com.twl.stepperlibrary.StepperTabViewPage}.
+ * A base adapter class which returns step fragments to use inside of the {@link com.daliammao.stepperlibrary.StepperTabViewPage}.
  */
 public abstract class AbstractFragmentStepAdapter
         extends FragmentPagerAdapter

@@ -6,9 +6,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.twl.stepperlibrary.StepperTabViewPage;
-import com.twl.stepperlibrary.VerificationError;
-import com.twl.stepperlibrary.internal.widget.TabsContainer;
+import com.daliammao.stepperlibrary.StepperTabViewPage;
+import com.daliammao.stepperlibrary.VerificationError;
+import com.daliammao.stepperlibrary.internal.widget.TabsContainer;
 
 import java.util.Arrays;
 import java.util.List;
