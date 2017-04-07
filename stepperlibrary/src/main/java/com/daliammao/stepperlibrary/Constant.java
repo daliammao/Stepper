@@ -3,7 +3,7 @@ package com.daliammao.stepperlibrary;
 /**
  * @author: zhoupengwei
  * @time: 2017/3/16-上午11:19
- * @Email: zhoupengwei@qccr.com
+ * @Email: 496946423@qq.com
  * @desc:
  */
 public class Constant {
